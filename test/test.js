@@ -669,10 +669,10 @@ describe('originBlacklist', function() {
   });
 });
 
-describe('originWhitelist', function() {
+describe('originALLOWLIST', function() {
   before(function() {
     cors_anywhere = createServer({
-      originWhitelist: ['https://permitted.origin.test'],
+      originALLOWLIST: ['https://permitted.origin.test'],
     });
     cors_anywhere_port = cors_anywhere.listen(0).address().port;
   });

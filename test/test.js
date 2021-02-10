@@ -636,10 +636,10 @@ describe('NODE_TLS_REJECT_UNAUTHORIZED', function() {
   });
 });
 
-describe('originBlacklist', function() {
+describe('originBlocklist', function() {
   before(function() {
     cors_anywhere = createServer({
-      originBLOCKLIST: ['http://denied.origin.test'],
+      originBlockList: ['http://denied.origin.test'],
     });
     cors_anywhere_port = cors_anywhere.listen(0).address().port;
   });
@@ -669,10 +669,10 @@ describe('originBlacklist', function() {
   });
 });
 
-describe('originALLOWLIST', function() {
+describe('originAllowList', function() {
   before(function() {
     cors_anywhere = createServer({
-      originALLOWLIST: ['https://permitted.origin.test'],
+      originAllowList: ['https://permitted.origin.test'],
     });
     cors_anywhere_port = cors_anywhere.listen(0).address().port;
   });

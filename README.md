@@ -137,13 +137,13 @@ see the sample code in [test/test-examples.js](test/test-examples.js).
 A public demo of CORS Anywhere is available at https://cors-anywhere.herokuapp.com. This server is
 only provided so that you can easily and quickly try out CORS Anywhere. To ensure that the service
 stays available to everyone, the number of requests per period is limited, except for requests from
-some explicitly ALLOWLISTed origins.
+some explicitly allowed origins.
 
 **Note: as of February 2021, access to the demo server requires an opt-in**,
 see: https://github.com/Rob--W/cors-anywhere/issues/301
 
 If you expect lots of traffic, please host your own instance of CORS Anywhere, and make sure that
-the CORS Anywhere server only ALLOWLISTs your site to prevent others from using your instance of
+the CORS Anywhere server only Allow list sites to prevent others from using your instance of
 CORS Anywhere as an open proxy.
 
 For instance, to run a CORS Anywhere server that accepts any request from some example.com sites on

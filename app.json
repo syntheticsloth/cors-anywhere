@@ -13,7 +13,7 @@
       },
       "CORSANYWHERE_ALLOWLIST": {
         "description": "Allow-list of domains; comma-separated.",
-        "value": "http://localhost",
+        "value": "https://sorter.koza.rip, http://sorter.koza.rip",
         "required": false
       },
       "CORSANYWHERE_RATELIMIT": {
